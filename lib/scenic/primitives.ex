@@ -30,7 +30,6 @@ defmodule Scenic.Primitives do
       |> rectangle( {100, 200} )
       |> line( {{10,20}, {100, 20}})
 
-
   When modifying a graph, you can again use the helpers by passing
   in the primitive to be modified. The transformed primitive will
   be returned.
@@ -443,7 +442,6 @@ defmodule Scenic.Primitives do
     Specifying `:miter_limit` puts a limit on the joint and bevels it if
     it goes out too far.
 
-
   Example:
 
       graph
@@ -515,7 +513,6 @@ defmodule Scenic.Primitives do
     is very shallow, the pointy bit might extend out far beyond the joint.
     Specifying `:miter_limit` puts a limit on the joint and bevels it if
     it goes out too far.
-
 
   Example:
 
@@ -754,7 +751,6 @@ defmodule Scenic.Primitives do
     vertical alignment. See the TextAlign docs for details.
   * `:text_height` - Specify the vertical spacing between rows of text.
 
-
   Example:
 
       graph
@@ -811,7 +807,6 @@ defmodule Scenic.Primitives do
     is very shallow, the pointy bit might extend out far beyond the joint.
     Specifying `:miter_limit` puts a limit on the joint and bevels it if
     it goes out too far.
-
 
   Example:
 

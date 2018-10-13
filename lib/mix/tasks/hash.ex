@@ -26,11 +26,10 @@ defmodule Mix.Tasks.Scenic.Hash do
       >> File hash using :sha256
       >> mix.exs -> "Svs-U3-UaMvp5i_Okpj9v92oX5uQmGIp0WHn_aRWt2w"
 
-
   You can also point it at a directory to have it hash the files within
 
       mix scenic.hash guides
-      
+
       >> File hash using :sha
       >> guides/overview_graph.md -> "xu6ihkVwAX7W8-Rzr2U769DR46w"
       >> guides/overview_general.md -> "UNcd84guRIEBK5a0tWdp5MYmJpI"

@@ -67,7 +67,6 @@ defmodule Scenic.Scene do
   time. However, scenes can reference other scenes, effectively embedding their graphs
   inside the main one. More on that below.
 
-
   ### [Graphs](Scenic.Graph.html)
 
   Each scene should maintain at least one graph. You can build graphs
@@ -83,8 +82,6 @@ defmodule Scenic.Scene do
 
     @graph  graph.build(font_size: 24)
     |> button({"Press Me", :button_id}, translate: {20, 20})
-
-
 
   Rather than having a single scene maintain a massive graph of UI,
   graphs can reference graphs in other scenes.
@@ -147,7 +144,6 @@ defmodule Scenic.Scene do
   sure they are sent to the scene projected in to the main
   (id is nil) graph's coordinate space.
 
-
   ### Communications
 
   Scenes are specialized GenServers. As such, they communicate with each other
@@ -157,7 +153,6 @@ defmodule Scenic.Scene do
 
   Scenes have two new event handling callbacks that you can *optionally* implement. These
   are about user input vs UI events.
-
 
   ## Input vs. Events
 
@@ -235,7 +230,6 @@ defmodule Scenic.Scene do
   its progression. It also generates and sends new event to its
   parent. I do this instead of transforming and continuing when
   I want to change the originating scene.
-
   """
 
   # @viewport             :viewport
