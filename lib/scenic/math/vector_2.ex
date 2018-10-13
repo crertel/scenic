@@ -18,28 +18,28 @@ defmodule Scenic.Math.Vector2 do
 
   # common constants
   @doc "A vector that points to the origin."
-  def zero(), do: {0.0, 0.0}
+  def zero, do: {0.0, 0.0}
 
   @doc "A vector that points to {1,1}."
-  def one(), do: {1.0, 1.0}
+  def one, do: {1.0, 1.0}
 
   @doc "A vector that points to {1,0}."
-  def unity_x(), do: {1.0, 0.0}
+  def unity_x, do: {1.0, 0.0}
 
   @doc "A vector that points to {0,1}."
-  def unity_y(), do: {0.0, 1.0}
+  def unity_y, do: {0.0, 1.0}
 
   @doc "A vector that points straight up by 1."
-  def up(), do: {0.0, 1.0}
+  def up, do: {0.0, 1.0}
 
   @doc "A vector that points straight down by 1."
-  def down(), do: {0.0, -1.0}
+  def down, do: {0.0, -1.0}
 
   @doc "A vector that points left by 1."
-  def left(), do: {-1.0, 0.0}
+  def left, do: {-1.0, 0.0}
 
   @doc "A vector that points right by 1."
-  def right(), do: {1.0, 0.0}
+  def right, do: {1.0, 0.0}
 
   # --------------------------------------------------------
   @doc """
