@@ -7,9 +7,10 @@
 # this module should be updated as new primitives are added
 
 defmodule Scenic.Primitives do
-  alias Scenic.Primitive
+
   alias Scenic.Graph
   alias Scenic.Math
+  alias Scenic.Primitive
 
   # import IEx
 

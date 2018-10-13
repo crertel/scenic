@@ -2,9 +2,10 @@ defmodule Scenic.Component.Input.RadioGroup do
   @moduledoc false
   use Scenic.Component, has_children: true
 
+  alias Scenic.Component.Input.RadioButton
   alias Scenic.Graph
   alias Scenic.Scene
-  alias Scenic.Component.Input.RadioButton
+
   import Scenic.Primitives, only: [{:group, 2}]
 
   #  import IEx

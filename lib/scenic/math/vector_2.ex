@@ -13,8 +13,8 @@ defmodule Scenic.Math.Vector2 do
   """
 
   alias Scenic.Math
-  alias Scenic.Math.Vector2
   alias Scenic.Math.Matrix
+  alias Scenic.Math.Vector2
 
   # common constants
   @doc "A vector that points to the origin."

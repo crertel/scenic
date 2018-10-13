@@ -7,8 +7,8 @@
 defmodule Scenic.ViewPort.Status do
   @moduledoc false
 
-  alias Scenic.ViewPort.Status
   alias Scenic.Math
+  alias Scenic.ViewPort.Status
 
   defstruct drivers: nil, root_config: nil, root_graph: nil, root_scene_pid: nil, size: nil
 

@@ -5,8 +5,9 @@ defmodule Scenic.Component.Button do
 
   alias Scenic.Graph
   alias Scenic.Primitive
-  alias Scenic.ViewPort
   alias Scenic.Primitive.Style.Theme
+  alias Scenic.ViewPort
+
   import Scenic.Primitives, only: [{:rrect, 3}, {:text, 3}, {:update_opts, 2}]
 
   # import IEx

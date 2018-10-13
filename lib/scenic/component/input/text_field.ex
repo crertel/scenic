@@ -7,11 +7,11 @@ defmodule Scenic.Component.Input.TextField do
   @moduledoc false
   use Scenic.Component, has_children: true
 
+  alias Scenic.Component.Input.Caret
   alias Scenic.Graph
+  alias Scenic.Primitive.Style.Theme
   alias Scenic.Scene
   alias Scenic.ViewPort
-  alias Scenic.Component.Input.Caret
-  alias Scenic.Primitive.Style.Theme
 
   import Scenic.Primitives,
     only: [

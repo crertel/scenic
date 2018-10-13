@@ -4,8 +4,9 @@ defmodule Scenic.Component.Input.Slider do
   use Scenic.Component, has_children: false
 
   alias Scenic.Graph
-  alias Scenic.ViewPort
   alias Scenic.Primitive.Style.Theme
+  alias Scenic.ViewPort
+
   import Scenic.Primitives, only: [{:rect, 3}, {:line, 3}, {:rrect, 3}, {:update_opts, 2}]
 
   # import IEx

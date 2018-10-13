@@ -5,8 +5,9 @@ defmodule Scenic.Component.Input.Checkbox do
 
   alias Scenic.Graph
   alias Scenic.Primitive
-  alias Scenic.ViewPort
   alias Scenic.Primitive.Style.Theme
+  alias Scenic.ViewPort
+
   import Scenic.Primitives
 
   # import IEx

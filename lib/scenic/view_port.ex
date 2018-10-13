@@ -6,9 +6,10 @@
 
 defmodule Scenic.ViewPort do
   use GenServer
+
   alias Scenic.Math
-  alias Scenic.ViewPort
   alias Scenic.Primitive
+  alias Scenic.ViewPort
   alias Scenic.ViewPort.Context
 
   @moduledoc """

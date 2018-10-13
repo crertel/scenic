@@ -5,12 +5,13 @@
 # Taking the learnings from several previous versions.
 
 defmodule Scenic.Scene do
+
   alias Scenic.Graph
+  alias Scenic.Primitive
   alias Scenic.Scene
+  alias Scenic.Utilities
   alias Scenic.ViewPort
   alias Scenic.ViewPort.Context
-  alias Scenic.Primitive
-  alias Scenic.Utilities
 
   require Logger
 

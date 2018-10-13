@@ -9,8 +9,9 @@ defmodule Scenic.Component.Input.Dropdown do
   use Scenic.Component, has_children: false
 
   alias Scenic.Graph
-  alias Scenic.ViewPort
   alias Scenic.Primitive.Style.Theme
+  alias Scenic.ViewPort
+
   import Scenic.Primitives
 
   # import IEx

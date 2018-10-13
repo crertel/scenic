@@ -17,8 +17,9 @@ defmodule Scenic.ViewPort.Driver do
   """
 
   use GenServer
-  alias Scenic.ViewPort
+
   alias Scenic.Math
+  alias Scenic.ViewPort
 
   # import IEx
 

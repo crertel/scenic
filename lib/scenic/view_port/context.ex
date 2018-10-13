@@ -7,10 +7,10 @@
 defmodule Scenic.ViewPort.Context do
   @moduledoc false
 
-  alias Scenic.Math
   alias Scenic.Graph
-  alias Scenic.ViewPort.Input
+  alias Scenic.Math
   alias Scenic.ViewPort.Context
+  alias Scenic.ViewPort.Input
 
   # note: would like to define tx: and inverse_tx: as Matrix.identity() directly
   # as defaults in the struct. However, this breaks when cross-compiling to

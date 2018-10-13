@@ -8,9 +8,9 @@
 
 defmodule Scenic.Components do
   alias Scenic.Component
+  alias Scenic.Graph
   alias Scenic.Primitive
   alias Scenic.Primitive.SceneRef
-  alias Scenic.Graph
 
   # import IEx
 
