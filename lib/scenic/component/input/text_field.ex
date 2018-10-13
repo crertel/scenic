@@ -254,6 +254,7 @@ defmodule Scenic.Component.Input.TextField do
 
   defp accept_char?(char, filter) when is_function(filter, 1) do
     # note: the !! forces the response to be a boolean
+    # credo:disable-for-next-line Credo.Check.Refactor.DoubleBooleanNegation
     !!filter.(char)
   end
 
