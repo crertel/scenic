@@ -37,7 +37,7 @@ defmodule Scenic.Primitive.Circle do
 
   # ============================================================================
   @spec valid_styles() :: [:hidden | :fill | :stroke]
-  def valid_styles(), do: @styles
+  def valid_styles, do: @styles
 
   # --------------------------------------------------------
   def contains_point?(radius, {xp, yp}) do

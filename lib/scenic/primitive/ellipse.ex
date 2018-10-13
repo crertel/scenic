@@ -37,7 +37,7 @@ defmodule Scenic.Primitive.Ellipse do
 
   # ============================================================================
   @spec valid_styles() :: [:fill | :hidden | :stroke, ...]
-  def valid_styles(), do: @styles
+  def valid_styles, do: @styles
 
   # --------------------------------------------------------
   def contains_point?({r1, r2}, {xp, yp}) do

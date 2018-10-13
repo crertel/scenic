@@ -32,7 +32,7 @@ defmodule Scenic.Primitive.Line do
 
   # ============================================================================
   @spec valid_styles() :: [:cap | :hidden | :stroke, ...]
-  def valid_styles(), do: @styles
+  def valid_styles, do: @styles
 
   # ============================================================================
 
