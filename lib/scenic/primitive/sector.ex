@@ -39,7 +39,7 @@ defmodule Scenic.Primitive.Sector do
 
   # ============================================================================
   @spec valid_styles() :: [:fill | :hidden | :stroke, ...]
-  def valid_styles(), do: @styles
+  def valid_styles, do: @styles
 
   # --------------------------------------------------------
   def contains_point?({radius, start, finish}, {xp, yp}) do

@@ -31,7 +31,7 @@ defmodule Scenic.Primitive.Triangle do
 
   # ============================================================================
   @spec valid_styles() :: [:fill | :hidden | :stroke, ...]
-  def valid_styles(), do: @styles
+  def valid_styles, do: @styles
 
   # --------------------------------------------------------
   def default_pin(data), do: centroid(data)

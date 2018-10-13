@@ -34,7 +34,7 @@ defmodule Scenic.Primitive.Quad do
   def verify(_), do: :invalid_data
 
   # ============================================================================
-  def valid_styles(), do: @styles
+  def valid_styles, do: @styles
 
   # --------------------------------------------------------
   def default_pin(data)

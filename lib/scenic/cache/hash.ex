@@ -21,7 +21,7 @@ defmodule Scenic.Cache.Hash do
 
   # --------------------------------------------------------
   @spec valid_hash_types() :: [:ripemd160 | :sha | :sha224 | :sha256 | :sha384 | :sha512, ...]
-  def valid_hash_types(), do: @hash_types
+  def valid_hash_types, do: @hash_types
   # --------------------------------------------------------
   @spec valid_hash_type?(any()) :: boolean()
   def valid_hash_type?(hash_type), do: Enum.member?(@hash_types, hash_type)

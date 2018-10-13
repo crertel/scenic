@@ -8,7 +8,7 @@ defmodule Scenic.Cache.Supervisor do
   The various Scenic rendering engines do use the callbacks for texture and font management, so you are probably best off using this supervisor...
 
   You can absolutely run the Scenic.Cache genserver directly from your own supervisor and skip this one if you want.
-  However, if you want to hook in to callbacks on put/claim/release, then you need to start up this supervisor, which manages both the cache and the callback registry. 
+  However, if you want to hook in to callbacks on put/claim/release, then you need to start up this supervisor, which manages both the cache and the callback registry.
   """
   use Supervisor
   alias Scenic.Cache
@@ -20,7 +20,7 @@ defmodule Scenic.Cache.Supervisor do
   # ============================================================================
   # setup the viewport supervisor
 
-  def start_link() do
+  def start_link do
     Supervisor.start_link(__MODULE__, :ok)
   end
 

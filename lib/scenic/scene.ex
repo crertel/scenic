@@ -390,7 +390,7 @@ defmodule Scenic.Scene do
       end
 
       # return the local scene process's scene_ref
-      defp scene_ref(), do: Process.get(:scene_ref)
+      defp scene_ref, do: Process.get(:scene_ref)
 
       # child spec that really starts up scene, with this module as an option
       @doc false

@@ -28,13 +28,13 @@ defmodule Scenic.ViewPort.Tables do
   # helpers so that other modules can get the name graphs during compile time
 
   @doc false
-  def graphs_table(), do: @ets_graphs_table
+  def graphs_table, do: @ets_graphs_table
 
   @doc false
-  def scenes_table(), do: @ets_scenes_table
+  def scenes_table, do: @ets_scenes_table
 
   @doc false
-  def subs_table(), do: @ets_subs_table
+  def subs_table, do: @ets_subs_table
 
   # --------------------------------------------------------
   @doc false

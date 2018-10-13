@@ -82,11 +82,11 @@ defmodule Scenic.Math.Matrix do
   # common constants
   @doc "A matrix where all the values are 0"
   @spec zero() :: Math.matrix()
-  def zero(), do: @matrix_zero
+  def zero, do: @matrix_zero
 
   @doc "The identity matrix"
   @spec identity() :: Math.matrix()
-  def identity(), do: @matrix_identity
+  def identity, do: @matrix_identity
 
   # ============================================================================
   # build matrices - all output a binary matrix

@@ -12,7 +12,7 @@ defmodule Scenic.Primitive.Transform.Scale do
   # data verification and serialization
 
   # --------------------------------------------------------
-  def info(), do: "Transform :scale must conform to the documentation\n"
+  def info, do: "Transform :scale must conform to the documentation\n"
 
   def info(data),
     do: """

@@ -31,5 +31,5 @@ defmodule Scenic.Primitive.Text do
           :fill | :font | :font_blur | :font_size | :hidden | :text_align | :text_height,
           ...
         ]
-  def valid_styles(), do: @styles
+  def valid_styles, do: @styles
 end
